@@ -1,4 +1,6 @@
 .container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -8,15 +10,32 @@
 }
 
 .item {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .image {
-  width: 100px;
-  margin-right: 20px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+p {
+  margin: 10px 0 0;
+  color: #003366;
+  font-weight: bold;
 }
 
 .button {
-  padding: 8px 16px;
+  background-color: #66b2ff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
   margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #005bb5;
 }

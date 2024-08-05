@@ -3,8 +3,10 @@
 }
 
 .title {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 28px;
+  color: #003366;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .list {
@@ -13,14 +15,16 @@
 }
 
 .item {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .link {
-  color: #007bff;
+  color: #003366;
+  font-size: 18px;
   text-decoration: none;
 }
 
 .link:hover {
+  color: #66b2ff;
   text-decoration: underline;
 }

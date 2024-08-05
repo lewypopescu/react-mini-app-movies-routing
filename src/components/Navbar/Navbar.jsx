@@ -7,8 +7,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <Link className={styles.link} to="/">
         Home
-      </Link>{' '}
-      |
+      </Link>
       <Link className={styles.link} to="/movies">
         Movies
       </Link>

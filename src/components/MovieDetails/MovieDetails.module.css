@@ -1,23 +1,44 @@
 .container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
 }
 
 .button {
-  padding: 8px 16px;
+  background-color: #66b2ff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
   margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #005bb5;
 }
 
 .poster {
-  width: 200px;
+  width: 300px;
   float: left;
   margin-right: 20px;
 }
 
+h2 {
+  color: #003366;
+}
+
+h3 {
+  color: #005bb5;
+}
+
 .link {
-  color: #007bff;
+  color: #003366;
   text-decoration: none;
 }
 
 .link:hover {
+  color: #66b2ff;
   text-decoration: underline;
 }

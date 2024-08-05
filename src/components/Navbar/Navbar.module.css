@@ -1,15 +1,24 @@
 .navbar {
-  padding: 10px;
-  background-color: #18176e;
-  color: white;
+  background-color: #003366;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link {
-  margin: 0 10px;
+  margin-right: 20px;
   color: white;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.link:last-child {
+  margin-right: 0;
 }
 
 .link:hover {
+  color: #66b2ff;
   text-decoration: underline;
 }
