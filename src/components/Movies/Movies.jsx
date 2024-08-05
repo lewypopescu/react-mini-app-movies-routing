@@ -45,11 +45,10 @@ const Movies = () => {
 Movies.propTypes = {
   movies: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      title: PropTypes.string.isRequired,
+      id: PropTypes.number,
+      title: PropTypes.string,
     })
-  ).isRequired,
-  setMovies: PropTypes.func.isRequired,
+  ),
 };
 
 export default Movies;

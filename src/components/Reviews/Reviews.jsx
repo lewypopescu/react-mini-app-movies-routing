@@ -59,15 +59,15 @@ const Reviews = () => {
 };
 
 Reviews.propTypes = {
-  movieId: PropTypes.string.isRequired,
+  movieId: PropTypes.string,
   reviews: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      author: PropTypes.string.isRequired,
-      content: PropTypes.string.isRequired,
+      id: PropTypes.string,
+      author: PropTypes.string,
+      content: PropTypes.string,
     })
-  ).isRequired,
-  setReviews: PropTypes.func.isRequired,
+  ),
+  setReviews: PropTypes.func,
 };
 
 export default Reviews;

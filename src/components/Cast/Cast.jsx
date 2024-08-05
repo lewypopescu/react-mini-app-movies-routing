@@ -47,9 +47,9 @@ const Cast = () => {
 Cast.propTypes = {
   cast: PropTypes.arrayOf(
     PropTypes.shape({
-      cast_id: PropTypes.number.isRequired,
-      name: PropTypes.string.isRequired,
-      character: PropTypes.string.isRequired,
+      cast_id: PropTypes.number,
+      name: PropTypes.string,
+      character: PropTypes.string,
       profile_path: PropTypes.string,
     })
   ),
