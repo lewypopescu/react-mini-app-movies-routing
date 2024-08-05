@@ -5,7 +5,6 @@ import styles from './MovieDetails.module.css';
 
 const MovieDetails = () => {
   const { movieId } = useParams();
-
   const [movie, setMovie] = useState(null);
 
   useEffect(() => {
@@ -32,17 +31,20 @@ const MovieDetails = () => {
         alt={movie.title}
         className={styles.poster}
       />
-      <h2>
+      <h2 className={styles.title}>
         {movie.title} ({movie.release_date.split('-')[0]})
       </h2>
-      <p>User Score: {movie.vote_average * 10}%</p>
-      <h3>Overview</h3>
-      <p>{movie.overview}</p>
-      <h3>Genres</h3>
-      <p>{movie.genres.map(genre => genre.name).join(', ')}</p>
-
-      <h3>Additional information</h3>
-      <ul>
+      <p className={styles.score}>
+        User Score: {(movie.vote_average * 10).toFixed(1)}%
+      </p>
+      <h3 className={styles.overviewTitle}>Overview</h3>
+      <p className={styles.overview}>{movie.overview}</p>
+      <h3 className={styles.genresTitle}>Genres</h3>
+      <p className={styles.genres}>
+        {movie.genres.map(genre => genre.name).join(', ')}
+      </p>
+      <h3 className={styles.additionalInfoTitle}>Additional information</h3>
+      <ul className={styles.additionalInfoList}>
         <li>
           <Link to={`/movies/${movieId}/cast`} className={styles.link}>
             Cast
