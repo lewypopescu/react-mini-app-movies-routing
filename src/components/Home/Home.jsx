@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { getTrendingMovies } from '../../api';
 import styles from './Home.module.css';
 
+import PropTypes from 'prop-types';
+
 const Home = () => {
   const [movies, setMovies] = useState([]);
 
@@ -29,6 +31,15 @@ const Home = () => {
       </ul>
     </div>
   );
+};
+
+Home.propTypes = {
+  movies: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      title: PropTypes.string,
+    })
+  ),
 };
 
 export default Home;

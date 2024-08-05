@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { searchMovies } from '../../api';
 import styles from './Movies.module.css';
 
+import PropTypes from 'prop-types';
+
 const Movies = () => {
   const [query, setQuery] = useState('');
   const [movies, setMovies] = useState([]);
@@ -38,6 +40,16 @@ const Movies = () => {
       </ul>
     </div>
   );
+};
+
+Movies.propTypes = {
+  movies: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      title: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  setMovies: PropTypes.func.isRequired,
 };
 
 export default Movies;

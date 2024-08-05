@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { getMovieDetails } from '../../api';
 import styles from './MovieDetails.module.css';
 
+import PropTypes from 'prop-types';
+
 const MovieDetails = () => {
   const { movieId } = useParams();
   const [movie, setMovie] = useState(null);
@@ -58,6 +60,22 @@ const MovieDetails = () => {
       </p>
     </div>
   );
+};
+
+MovieDetails.propTypes = {
+  movie: PropTypes.shape({
+    title: PropTypes.string,
+    release_date: PropTypes.string,
+    poster_path: PropTypes.string,
+    vote_average: PropTypes.number,
+    overview: PropTypes.string,
+    genres: PropTypes.arrayOf(
+      PropTypes.shape({
+        name: PropTypes.string,
+      })
+    ),
+  }),
+  fetchMovieDetails: PropTypes.func,
 };
 
 export default MovieDetails;

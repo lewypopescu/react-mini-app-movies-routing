@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
+import PropTypes from 'prop-types';
+
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
@@ -13,6 +15,10 @@ const Navbar = () => {
       </Link>
     </nav>
   );
+};
+
+Navbar.propTypes = {
+  title: PropTypes.string,
 };
 
 export default Navbar;
