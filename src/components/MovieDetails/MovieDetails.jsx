@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { getMovieDetails } from '../../api';
 import styles from './MovieDetails.module.css';
 
+import Loading from '../Loading/Loading';
+
 import PropTypes from 'prop-types';
 
 const MovieDetails = () => {
@@ -21,7 +23,7 @@ const MovieDetails = () => {
     fetchMovieDetails();
   }, [movieId]);
 
-  if (!movie) return <div>Loading...</div>;
+  if (!movie) return <Loading />;
 
   return (
     <div className={styles.container}>
