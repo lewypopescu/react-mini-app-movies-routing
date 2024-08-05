@@ -4,8 +4,8 @@ import styles from './Loading.module.css';
 const Loading = () => {
   return (
     <Audio
-      height="400"
-      width="500"
+      height="500"
+      width="400"
       radius="9"
       color="blue"
       ariaLabel="three-dots-loading"

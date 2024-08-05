@@ -15,7 +15,7 @@ const Reviews = () => {
         const data = await getMovieReviews(movieId);
         setReviews(data.results);
       } catch (error) {
-        console.error('Failed to fetch movie reviews:', error);
+        console.error('Failed to fetch movie reviews:', error.message);
       }
     };
 
@@ -33,7 +33,7 @@ const Reviews = () => {
             Go back
           </button>
           <p className={styles.message}>
-            We don't have any reviews for this movie.
+            For the moment we don't have any reviews for this movie.
           </p>
         </div>
       </>
