@@ -4,6 +4,9 @@
 
 .form {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .input {
@@ -19,6 +22,10 @@
 .list {
   list-style: none;
   padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-top: 50px;
 }
 
 .item {

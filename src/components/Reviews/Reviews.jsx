@@ -22,9 +22,19 @@ const Reviews = () => {
 
   if (reviews.length === 0) {
     return (
-      <p className={styles.message}>
-        We don't have any reviews for this movie.
-      </p>
+      <>
+        <div className={styles.container}>
+          <button
+            onClick={() => window.history.back()}
+            className={styles.button}
+          >
+            Go back
+          </button>
+          <p className={styles.message}>
+            We don't have any reviews for this movie.
+          </p>
+        </div>
+      </>
     );
   }
 

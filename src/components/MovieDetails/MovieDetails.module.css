@@ -17,6 +17,10 @@
   font-weight: bold;
 }
 
+.button:hover {
+  background-color: #005bb5;
+}
+
 .poster {
   width: 300px;
   height: auto;
@@ -29,12 +33,13 @@
   font-weight: bold;
   color: #003366;
   margin-bottom: 10px;
+  width: 20%;
 }
 
 .score {
   font-size: 1.2em;
   font-weight: bold;
-  color: #666;
+  color: #667;
   margin-bottom: 20px;
 }
 
@@ -52,7 +57,7 @@
   font-size: 1.2em;
   color: #333;
   margin-bottom: 20px;
-  width: 50%;
+  width: 20%;
 }
 
 .additionalInfoList {

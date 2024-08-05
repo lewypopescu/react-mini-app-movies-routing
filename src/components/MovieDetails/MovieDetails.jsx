@@ -26,6 +26,19 @@ const MovieDetails = () => {
       <button onClick={() => window.history.back()} className={styles.button}>
         Go back
       </button>
+      <h3 className={styles.additionalInfoTitle}>Additional information</h3>
+      <ul className={styles.additionalInfoList}>
+        <li>
+          <Link to={`/movies/${movieId}/cast`} className={styles.link}>
+            Cast
+          </Link>
+        </li>
+        <li>
+          <Link to={`/movies/${movieId}/reviews`} className={styles.link}>
+            Reviews
+          </Link>
+        </li>
+      </ul>
       <img
         src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
         alt={movie.title}
@@ -43,19 +56,6 @@ const MovieDetails = () => {
       <p className={styles.genres}>
         {movie.genres.map(genre => genre.name).join(', ')}
       </p>
-      <h3 className={styles.additionalInfoTitle}>Additional information</h3>
-      <ul className={styles.additionalInfoList}>
-        <li>
-          <Link to={`/movies/${movieId}/cast`} className={styles.link}>
-            Cast
-          </Link>
-        </li>
-        <li>
-          <Link to={`/movies/${movieId}/reviews`} className={styles.link}>
-            Reviews
-          </Link>
-        </li>
-      </ul>
     </div>
   );
 };
