@@ -1,13 +1,37 @@
 {
   "files": {
-    "main.css": "/react-mini-app-movies-routing/static/css/main.041fc9db.css",
-    "main.js": "/react-mini-app-movies-routing/static/js/main.38a54bd9.js",
+    "main.css": "/react-mini-app-movies-routing/static/css/main.6f94df33.css",
+    "main.js": "/react-mini-app-movies-routing/static/js/main.991b6c64.js",
+    "static/css/319.76fd7ebb.chunk.css": "/react-mini-app-movies-routing/static/css/319.76fd7ebb.chunk.css",
+    "static/js/319.e407c0d0.chunk.js": "/react-mini-app-movies-routing/static/js/319.e407c0d0.chunk.js",
+    "static/css/433.f3686940.chunk.css": "/react-mini-app-movies-routing/static/css/433.f3686940.chunk.css",
+    "static/js/433.c53c036b.chunk.js": "/react-mini-app-movies-routing/static/js/433.c53c036b.chunk.js",
+    "static/css/653.c771fd5f.chunk.css": "/react-mini-app-movies-routing/static/css/653.c771fd5f.chunk.css",
+    "static/js/653.6844e0f1.chunk.js": "/react-mini-app-movies-routing/static/js/653.6844e0f1.chunk.js",
+    "static/css/888.b0e2a27c.chunk.css": "/react-mini-app-movies-routing/static/css/888.b0e2a27c.chunk.css",
+    "static/js/888.e3da7ed2.chunk.js": "/react-mini-app-movies-routing/static/js/888.e3da7ed2.chunk.js",
+    "static/css/76.b3afdbc4.chunk.css": "/react-mini-app-movies-routing/static/css/76.b3afdbc4.chunk.css",
+    "static/js/76.cec1ca55.chunk.js": "/react-mini-app-movies-routing/static/js/76.cec1ca55.chunk.js",
+    "static/css/168.4075b5c0.chunk.css": "/react-mini-app-movies-routing/static/css/168.4075b5c0.chunk.css",
+    "static/js/168.36fbaa29.chunk.js": "/react-mini-app-movies-routing/static/js/168.36fbaa29.chunk.js",
     "index.html": "/react-mini-app-movies-routing/index.html",
-    "main.041fc9db.css.map": "/react-mini-app-movies-routing/static/css/main.041fc9db.css.map",
-    "main.38a54bd9.js.map": "/react-mini-app-movies-routing/static/js/main.38a54bd9.js.map"
+    "main.6f94df33.css.map": "/react-mini-app-movies-routing/static/css/main.6f94df33.css.map",
+    "main.991b6c64.js.map": "/react-mini-app-movies-routing/static/js/main.991b6c64.js.map",
+    "319.76fd7ebb.chunk.css.map": "/react-mini-app-movies-routing/static/css/319.76fd7ebb.chunk.css.map",
+    "319.e407c0d0.chunk.js.map": "/react-mini-app-movies-routing/static/js/319.e407c0d0.chunk.js.map",
+    "433.f3686940.chunk.css.map": "/react-mini-app-movies-routing/static/css/433.f3686940.chunk.css.map",
+    "433.c53c036b.chunk.js.map": "/react-mini-app-movies-routing/static/js/433.c53c036b.chunk.js.map",
+    "653.c771fd5f.chunk.css.map": "/react-mini-app-movies-routing/static/css/653.c771fd5f.chunk.css.map",
+    "653.6844e0f1.chunk.js.map": "/react-mini-app-movies-routing/static/js/653.6844e0f1.chunk.js.map",
+    "888.b0e2a27c.chunk.css.map": "/react-mini-app-movies-routing/static/css/888.b0e2a27c.chunk.css.map",
+    "888.e3da7ed2.chunk.js.map": "/react-mini-app-movies-routing/static/js/888.e3da7ed2.chunk.js.map",
+    "76.b3afdbc4.chunk.css.map": "/react-mini-app-movies-routing/static/css/76.b3afdbc4.chunk.css.map",
+    "76.cec1ca55.chunk.js.map": "/react-mini-app-movies-routing/static/js/76.cec1ca55.chunk.js.map",
+    "168.4075b5c0.chunk.css.map": "/react-mini-app-movies-routing/static/css/168.4075b5c0.chunk.css.map",
+    "168.36fbaa29.chunk.js.map": "/react-mini-app-movies-routing/static/js/168.36fbaa29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.041fc9db.css",
-    "static/js/main.38a54bd9.js"
+    "static/css/main.6f94df33.css",
+    "static/js/main.991b6c64.js"
   ]
 }
