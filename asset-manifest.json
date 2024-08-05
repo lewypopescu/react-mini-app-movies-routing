@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-mini-app-movies-routing/static/css/main.da38cb5c.css",
-    "main.js": "/react-mini-app-movies-routing/static/js/main.776985a9.js",
+    "main.js": "/react-mini-app-movies-routing/static/js/main.6487e008.js",
     "index.html": "/react-mini-app-movies-routing/index.html",
     "main.da38cb5c.css.map": "/react-mini-app-movies-routing/static/css/main.da38cb5c.css.map",
-    "main.776985a9.js.map": "/react-mini-app-movies-routing/static/js/main.776985a9.js.map"
+    "main.6487e008.js.map": "/react-mini-app-movies-routing/static/js/main.6487e008.js.map"
   },
   "entrypoints": [
     "static/css/main.da38cb5c.css",
-    "static/js/main.776985a9.js"
+    "static/js/main.6487e008.js"
   ]
 }
