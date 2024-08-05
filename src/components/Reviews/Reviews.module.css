@@ -1,0 +1,22 @@
+.container {
+  padding: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.button {
+  padding: 8px 16px;
+  margin-bottom: 20px;
+}
